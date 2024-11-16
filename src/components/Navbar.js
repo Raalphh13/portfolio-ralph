@@ -3,30 +3,42 @@ import React from "react";
 
 export default function Navbar() {
   return (
-    <header className="bg-gray-800 md:sticky top-0 z-10">
+    <header className="bg-white md:sticky top-0 z-10 shadow-lg">
       <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
-        <a className="title-font font-medium text-white mb-4 md:mb-0">
-          <a href="#about" className="ml-3 text-xl">
-            Kent Bravo
-          </a>
+        {/* Brand Name */}
+        <a href="#about" className="text-2xl font-bold text-gray-900 tracking-wide">
+          Ralph Mendoza
         </a>
-        <nav className="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-700    flex flex-wrap items-center text-base justify-center">
-          <a href="#projects" className="mr-5 hover:text-white">
-            Past Work
+
+        {/* Navigation Links */}
+        <nav className="md:ml-auto flex flex-wrap items-center text-lg justify-center space-x-6 mt-4 md:mt-0">
+          <a
+            href="#projects"
+            className="text-gray-800 hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r from-teal-400 to-indigo-600"
+          >
+            Projects & Certifications
           </a>
-          <a href="#skills" className="mr-5 hover:text-white">
+          <a
+            href="#skills"
+            className="text-gray-800 hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r from-teal-400 to-indigo-600"
+          >
             Skills
           </a>
-          <a href="#testimonials" className="mr-5 hover:text-white">
-            Testimonials
+          <a
+            href="#testimonials"
+            className="text-gray-800 hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r from-teal-400 to-indigo-600"
+          >
+            Resume
           </a>
         </nav>
+
+        {/* CTA Button */}
         <a
           href="#contact"
-          className="inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 rounded text-base mt-4 md:mt-0"
+          className="ml-10 inline-flex items-center bg-gradient-to-r from-teal-400 to-indigo-600 text-white px-6 py-2 rounded-full shadow-md hover:shadow-lg transform hover:scale-105 transition duration-300 ease-in-out mt-4 md:mt-0"
         >
-          Hire Me
-          <ArrowRightIcon className="w-4 h-4 ml-1" />
+          Contact Me
+          <ArrowRightIcon className="w-5 h-5 ml-2" />
         </a>
       </div>
     </header>

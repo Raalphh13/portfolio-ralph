@@ -2,41 +2,51 @@ import React from "react";
 
 export default function About() {
   return (
-    <section id="about">
-      <div className="container mx-auto flex px-10 py-20 md:flex-row flex-col items-center">
-        <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
-          <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-white">
-            Hi, I'm Kent.
-            <br className="hidden lg:inline-block" />I love to build amazing
-            apps.
+    <section id="about" className="bg-gray-50 min-h-screen flex items-center justify-center">
+      <div className="container mx-auto flex flex-col items-center text-center">
+        {/* Image Section */}
+        <div className="mb-8">
+          <img
+            className="object-cover object-center rounded-full shadow-lg w-48 h-48"
+            alt="aspiring IT professional"
+            src="/profile.png" alt="My Profile" 
+            />
+    
+        </div>
+
+        {/* Text Content Section */}
+        <div className="max-w-2xl">
+          <h1 className="title-font sm:text-5xl text-4xl mb-4 font-bold text-gray-800">
+            Hello, I am an aspiring
+            
+            <br></br> 
+            <span className="p-10 bg-gradient-to-r from-[#FF8660] to-[#9A33FF] text-transparent bg-clip-text">
+              IT professional.
+            </span>
           </h1>
-          <p className="mb-8 leading-relaxed">
-            From sleek, modern websites to dynamic, scalable applications, I
-            bring your ideas to life with precision and passion. Let’s create
-            something incredible together — tailored just for your needs and
-            vision.
+          <p className="mb-12 mt-12 leading-relaxed text-gray-600">
+            My name is <span className="font-medium text-gray-800">Ralph Mendoza</span>, 
+            a 22-year-old Information Technology student at <span className="font-medium text-gray-800">Centro Escolar University</span>. 
+            I am passionate about learning and exploring the limitless possibilities of technology. With a strong interest in software development, 
+            web design, and IT solutions, I strive to create innovative and efficient systems that make a difference.
           </p>
-          <div className="flex justify-center">
+
+          
+          <div className="flex justify-center mt-10">
             <a
               href="#contact"
-              className="inline-flex text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg"
+              className="inline-flex text-white bg-black border-0 py-2 px-6 focus:outline-none hover:bg-gray-800 rounded-full text-lg"
             >
-              Work With Me
+              Get in Touch
             </a>
             <a
               href="#projects"
-              className="ml-4 inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg"
+              className="ml-4 inline-flex text-black bg-white border-2 border-black py-2 px-6 focus:outline-none hover:bg-black hover:text-white rounded-full text-lg"
             >
-              See My Past Work
+              View My Work
             </a>
           </div>
-        </div>
-        <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
-          <img
-            className="object-cover object-center rounded-full"
-            alt="hero"
-            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7N_-tv1TAZ7hYCqFLVV4oQ1XNTwFn__OzJw&s"
-          />
+
         </div>
       </div>
     </section>
