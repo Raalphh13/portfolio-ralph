@@ -19,6 +19,10 @@ html {
   scroll-behavior: smooth;
 }
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 519d283c4e67dce4c25f851ff3944d1828b29f2f
 .loader-container {
   position: fixed;
   top: 0;
@@ -37,6 +41,7 @@ html {
   opacity: 0; /* Fade out to transparent */
   pointer-events: none; /* Prevent interaction during fade-out */
 }
+<<<<<<< HEAD
 
 /* Simple Gradient Background Animation */
 /* Black-and-White Gradient Background Animation */
@@ -70,3 +75,5 @@ html {
 
 
 
+=======
+>>>>>>> 519d283c4e67dce4c25f851ff3944d1828b29f2f

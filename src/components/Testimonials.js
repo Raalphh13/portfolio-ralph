@@ -16,6 +16,7 @@ export default function Testimonials() {
   };
 
   return (
+<<<<<<< HEAD
     <section
       id="testimonials"
       className="relative bg-gradient-to-r from-black via-gray-900 to-gray-800 text-white py-16 mb-20"
@@ -27,16 +28,26 @@ export default function Testimonials() {
 
       {/* Content */}
       <div className="relative z-10 container mx-auto text-center">
+=======
+    <section id="testimonials" className="mb-20 py-10 bg-gray-50 text-center">
+      <div className="container mx-auto">
+>>>>>>> 519d283c4e67dce4c25f851ff3944d1828b29f2f
         <div className="mb-12">
           <img
             src="/dp2.png" // Replace with your image URL
             alt="Ralph Mendoza"
             className="mx-auto rounded-full mb-4 w-32 h-32 object-cover"
           />
+<<<<<<< HEAD
           <h2 className="text-2xl font-semibold text-gray-100">Come see my Resume!</h2>
           {/* Update text color to gray-200 for better visibility */}
           <p className="text-gray-300 mt-2 mb-6">
             Click the button below to view or download my resume.
+=======
+          <h2 className="text-2xl font-semibold text-gray-900">Come see my Resume!</h2>
+          <p className="text-gray-600 mt-2 mb-6">
+            Click the button below to view or my resume.
+>>>>>>> 519d283c4e67dce4c25f851ff3944d1828b29f2f
           </p>
           <button
             onClick={openModal}
@@ -69,4 +80,7 @@ export default function Testimonials() {
     </section>
   );
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 519d283c4e67dce4c25f851ff3944d1828b29f2f

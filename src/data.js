@@ -3,8 +3,15 @@ export const projects = [
     title: "CliemateAware",
     subtitle: "Web Application - Thesis",
     description:
+<<<<<<< HEAD
       "A web application designed to track and analyze climate data, providing users with insights on environmental changes. The system aims to raise awareness about climate change through real-time data monitoring and visualizations.",
     image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2ekBQgUi_dZnzoTGM6t1JZ30NpHZgpxzoCQ&s",
+=======
+      " A web application designed to track and analyze climate data, providing users with insights on environmental changes. The system aims to raise awareness about climate change through real-time data monitoring and visualizations.",
+      image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2ekBQgUi_dZnzoTGM6t1JZ30NpHZgpxzoCQ&s",
+
+
+>>>>>>> 519d283c4e67dce4c25f851ff3944d1828b29f2f
     link: "https://climateaware-f72da0.ingress-comporellon.ewp.live/",
   },
   {
@@ -34,6 +41,7 @@ export const projects = [
       "https://images.credly.com/size/340x340/images/2784d0d8-327c-406f-971e-9f0e15097003/image.png",
     link: "https://www.credly.com/badges/4d48a0c5-0744-4fd2-9a92-28aa8bb22722/public_url",
   },
+<<<<<<< HEAD
   // New Certification 1
   {
     title: "Create a Project Charter with Google Docs",
@@ -52,6 +60,8 @@ export const projects = [
     image: "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/http://coursera-university-assets.s3.amazonaws.com/89/a0db8f3ea3417ca90d4f3a4ca1d73e/coursera-projectnetwork-purplesquare.png", // Replace with the correct image URL
     link: "https://www.coursera.org/account-profile",
   },
+=======
+>>>>>>> 519d283c4e67dce4c25f851ff3944d1828b29f2f
 ];
 
 export const skills = [
@@ -69,4 +79,7 @@ export const testimonials = [
     quote: `"Website was responsive and brings sales to me"`,
   },
 ];
+<<<<<<< HEAD
 
+=======
+>>>>>>> 519d283c4e67dce4c25f851ff3944d1828b29f2f

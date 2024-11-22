@@ -4,6 +4,7 @@ import { projects } from "../data";
 
 export default function Projects() {
   return (
+<<<<<<< HEAD
     <section
       id="projects"
       className="relative bg-gradient-to-r from-black via-gray-900 to-gray-800 text-white body-font overflow-hidden"
@@ -26,15 +27,36 @@ export default function Projects() {
         </div>
 
         {/* Project Cards */}
+=======
+    <section id="projects" className="bg-gray-50 text-gray-800 body-font">
+      <div className="container px-5 py-16 mx-auto text-center lg:px-32">
+        <div className="flex flex-col w-full mb-12">
+          <AcademicCapIcon className="mx-auto inline-block w-12 h-12 text-blue-500 mb-4" />
+          <h1 className="sm:text-4xl text-3xl font-bold title-font mb-4 text-gray-900">
+            Thesis and Certifications
+          </h1>
+          <p className="lg:w-2/3 mx-auto leading-relaxed text-base text-gray-600">
+            Here is a showcase of my academic thesis and certifications. Each represents my dedication, skills, and commitment to growth in the IT field.
+          </p>
+        </div>
+>>>>>>> 519d283c4e67dce4c25f851ff3944d1828b29f2f
         <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {projects.map((project) => (
             <div
               key={project.image}
+<<<<<<< HEAD
               className="bg-white border border-gray-200 rounded-lg shadow-lg overflow-hidden hover:scale-105 hover:shadow-2xl transition-transform duration-300"
             >
               <img
                 alt="gallery"
                 className="w-full h-48 object-cover"
+=======
+              className="border border-gray-200 rounded-lg shadow-lg overflow-hidden hover:shadow-2xl transition-shadow duration-300"
+            >
+              <img
+                alt="gallery"
+                className="w-full h-80 object-contain w-full h-48 object-cover"
+>>>>>>> 519d283c4e67dce4c25f851ff3944d1828b29f2f
                 src={project.image}
               />
               <div className="p-6">
@@ -47,6 +69,7 @@ export default function Projects() {
                 <p className="leading-relaxed text-gray-700 text-sm">
                   {project.description}
                 </p>
+<<<<<<< HEAD
                 {project.link && (
                   <a
                     href={project.link}
@@ -55,6 +78,8 @@ export default function Projects() {
                     View Certificate
                   </a>
                 )}
+=======
+>>>>>>> 519d283c4e67dce4c25f851ff3944d1828b29f2f
               </div>
             </div>
           ))}
@@ -63,7 +88,10 @@ export default function Projects() {
     </section>
   );
 }
+<<<<<<< HEAD
 
 
 
 
+=======
+>>>>>>> 519d283c4e67dce4c25f851ff3944d1828b29f2f

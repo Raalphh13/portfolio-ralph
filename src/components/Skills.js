@@ -4,6 +4,7 @@ import { skills } from "../data";
 
 export default function Skills() {
   return (
+<<<<<<< HEAD
     <section
       id="skills"
       className="relative bg-gradient-to-r from-black via-gray-900 to-gray-800 text-white py-16"
@@ -23,6 +24,20 @@ export default function Skills() {
           <p className="text-gray-300 text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">
             With a passion for solving complex challenges, I have honed a diverse set of skills across various domains. These tools and technologies empower me to innovate, create, and deliver efficient, high-quality solutions for every project.
           </p>
+=======
+    <section id="skills" className="min-h-screen flex items-center justify-center bg-gray-50 py-16">
+      <div className="container px-5 mx-auto">
+        <div className="text-center mb-12">
+          <ChipIcon className="w-12 h-12 inline-block text-blue-500 mb-4" />
+          <h1 className="sm:text-4xl text-3xl font-bold title-font text-gray-900 mb-4">
+            Skills
+          </h1>
+          <p className="text-gray-600 text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">
+          With a passion for solving complex challenges, I have honed a
+            diverse set of skills across various domains. These tools and
+            technologies empower me to innovate, create, and deliver efficient,
+            high-quality solutions for every project.          </p>
+>>>>>>> 519d283c4e67dce4c25f851ff3944d1828b29f2f
         </div>
         <div className="flex flex-wrap lg:w-4/5 sm:mx-auto -mx-2">
           {skills.map((skill) => (
@@ -40,4 +55,7 @@ export default function Skills() {
     </section>
   );
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 519d283c4e67dce4c25f851ff3944d1828b29f2f
